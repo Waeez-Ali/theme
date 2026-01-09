@@ -27,7 +27,7 @@ const ThemeCard: React.FC<ThemeCardProps> = ({ image, title, className = "" }) =
                     <ButtonSecondary
                         text="Preview"
                         icon={<img src={Eye} alt="Eye" className="w-[16px] h-[16px]" />}
-                        className="border-none text-[10px]"
+                        className="border-none cursor-pointer text-[10px]"
                     />
 
                     {/* Vertical separator */}
@@ -36,7 +36,7 @@ const ThemeCard: React.FC<ThemeCardProps> = ({ image, title, className = "" }) =
                     <ButtonSecondary
                         text="Store"
                         icon={<img src={Shop} alt="Store" className="w-[16px] h-[16px]" />}
-                        className="border-none text-[10px]"
+                        className="border-none cursor-pointer text-[10px]"
                     />
 
                     <ButtonPrimary

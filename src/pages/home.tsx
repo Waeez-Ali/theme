@@ -1,8 +1,8 @@
 import { useState } from "react"
 import ThemeCard from "@/components/cards/ThemeCard"
-import Hero from "@/components/home/hero"
 import Pagination from "@/components/pagination/Pagination"
 import { THEMES } from "@/data/themes"
+import HeroSlider from "@/components/home/heroSlider"
 
 
 const Home = () => {
@@ -17,8 +17,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center">
       <div className="relative p-4 w-full">
-        <Hero />
-        {/* <HeroSlider /> */}
+        <HeroSlider />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-8 mt-0 lg:-mt-30 z-10 relative justify-items-center 

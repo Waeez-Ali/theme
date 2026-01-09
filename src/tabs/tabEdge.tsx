@@ -14,7 +14,7 @@ const TabEdge = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-6 min-h-225">
+    <div className="flex flex-col justify-center items-center gap-6 min-h-200">
 
       {/* Buttons */}
       <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
@@ -34,6 +34,8 @@ const TabEdge = () => {
                 whitespace-nowrap
                 cursor-pointer
                 border
+              hover:border-text-blue
+              hover:bg-white
                 ${isActive ? "border-blue-500" : "border-transparent"}
               `}
             >

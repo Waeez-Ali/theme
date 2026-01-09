@@ -13,7 +13,7 @@ const Tab = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-6 min-h-225">
+    <div className="flex flex-col justify-center items-center gap-6 min-h-200">
 
       {/* Buttons */}
       <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
@@ -33,6 +33,8 @@ const Tab = () => {
                 whitespace-nowrap
                 cursor-pointer
                 border
+                hover:border-text-blue
+                hover:bg-white
                 ${isActive ? "border-blue-500" : "border-transparent"}
               `}
             >
@@ -42,17 +44,6 @@ const Tab = () => {
           );
         })}
       </div>
-
-      {/* Heading */}
-      <h1 className="
-        font-semibold
-        text-[18px] lg:text-[40px]
-        leading-[100%]
-        text-center
-        text-text-blue
-      ">
-        Guide
-      </h1>
     </div>
   );
 };

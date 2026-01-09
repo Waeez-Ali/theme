@@ -16,8 +16,6 @@ const ButtonSecondary = ({
         bg-transparent
         border border-slate-700
         text-text-blue
-        hover:btn-gradient
-        transition-all
         px-4 py-2
         rounded-[5px]
         flex items-center gap-2

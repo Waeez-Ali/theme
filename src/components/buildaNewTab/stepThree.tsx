@@ -145,7 +145,7 @@ const SteperThree: React.FC<SteperThreeProps> = ({
         onClick={handleSubmit}
          text={loading ? "Saving..." : "Submit"}
         icon={<img src={Verify} alt="verify" className="w-4 h-4" />}
-        className=""
+        className="cursor-pointer"
       />
 
 

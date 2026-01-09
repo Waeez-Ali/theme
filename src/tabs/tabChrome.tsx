@@ -1,4 +1,4 @@
-import { browserstab } from "@/data/themes"; 
+import { browserstab } from "@/data/themes";
 import { OpenLink } from "@/assets/icons";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -14,7 +14,7 @@ const TabChrome = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-6 min-h-225">
+    <div className="flex flex-col justify-center items-center gap-6 min-h-200">
 
       {/* Buttons */}
       <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
@@ -34,6 +34,8 @@ const TabChrome = () => {
                 whitespace-nowrap
                 cursor-pointer
                 border
+              hover:border-text-blue
+              hover:bg-white
                 ${isActive ? "border-blue-500" : "border-transparent"}
               `}
             >
@@ -52,7 +54,7 @@ const TabChrome = () => {
         text-center
         text-text-blue
       ">
-        Edge Guide
+        Chrome Guide
       </h1>
 
       {/* Links */}

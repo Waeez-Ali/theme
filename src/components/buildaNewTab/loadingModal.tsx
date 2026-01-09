@@ -1,5 +1,5 @@
 import { Building } from "@/assets/icons";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const LoadingModal = () => {
   const [progress, setProgress] = useState(1);
